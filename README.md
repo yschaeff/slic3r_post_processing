@@ -1,6 +1,6 @@
-Post processing script for Slic3r generated gcode
+Post process Slic3r gcode for Octoprint time lapse
 ==
-slic3r-post.py: Move the printhead out of the way before each layer change and put the model in a know location. This will add some print time but time lapses become much nicer to look at.
+slic3r-post.py: Move the printhead out of the way before each layer change and put the model in a known location. This will add some print time but time lapses become much nicer to look at.
 - Save the file on your disk and make it executable.
 - In Slic3r add the path to: Print Settings/Output options/Post-processing scripts
 - In Octoprint capture images "on Z change" and make sure Octoprint, Slic3r and the script agree on Z-hop.
